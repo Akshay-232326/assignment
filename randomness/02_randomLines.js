@@ -23,7 +23,7 @@ function setup() {
 
 function draw(w) {
     r.BeginDrawing();
-    r.ClearBackground(r.BLACK);
+    r.ClearBackground(r.BLUE);
 
     for (let i = 0; i < 100; i++) {
         r.DrawRectangle(w.rec.x[i], w.rec.y, 1, w.HEIGHT, r.WHITE);
